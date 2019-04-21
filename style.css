@@ -1,0 +1,63 @@
+html {
+  font-size: 62.5%;
+}
+
+.wrapper {
+  font-family: 'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+  font-size: 1.6rem;
+  color: #202020;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  background-color: #fafafa;
+  min-height: 100vh;
+}
+
+.content {
+  width: 600px;
+  margin: auto;
+}
+
+.ttl {
+  font-size: 2.4rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#weatherImage {
+  display: block;
+  width: 100%;
+}
+
+.info {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 5px;
+}
+.info > .underlayer {
+  display: inline-block;
+  padding-right: 0.5em;
+}
+.info > .underlayer:last-child {
+  padding-right: 0;
+}
+
+#observationTime {
+  width: 4.5em;
+}
+
+@media screen and (max-width: 375px) {
+
+  .content {
+    width: 100%;
+  }
+  
+  .ttl {
+    font-size: 2.0rem;
+  }
+
+  .info {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+

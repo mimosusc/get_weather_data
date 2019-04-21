@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./reset.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <h1 class="ttl">現在の天気</h1>
+    <div class="content">
+      <img id="weatherImage">
+      <div class="info">
+        <span id="weatherText" class="underlayer"></span>
+        <span id="observationTime" class="underlayer"></span>
+      </div>
+    </div>
+  </div>
+  <script defer src="https://api.openweathermap.org/data/2.5/weather?id=524901&APPID=7821182585fafa634e6d1a7f1d986c75">
+  </script>
+  <script src="script.js"></script>
+</body>
+
+</html>
