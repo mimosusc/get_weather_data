@@ -21,6 +21,9 @@ xmlHttpRequest.onreadystatechange = function () {
         case 'broken clouds':
           weather = '曇天', imgFilePath = brokenCloudsImg;
           break;
+        case 'overcast clouds':
+          weather = '曇天', imgFilePath = brokenCloudsImg;
+          break;
         case 'shower rain':
           weather = '小雨', imgFilePath = showerRainImg;
           break;
