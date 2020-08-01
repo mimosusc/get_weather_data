@@ -49,7 +49,7 @@
   background-repeat: no-repeat; /* 1 */
   padding: 0; /* 2 */
   margin: 0;
-  // 以下追記
+  /* // 以下追記 */
   box-sizing: border-box;
   list-style-type: none;
   font-size: 100%;
